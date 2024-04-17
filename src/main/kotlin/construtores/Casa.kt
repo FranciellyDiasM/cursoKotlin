@@ -1,11 +1,22 @@
 package construtores
 
-class Casa {
+class Casa (var cor : String, var vagasGaragem : Int ) {
 
     // propriedades
-    var cor: String = ""
-    var vagasGaragem: Int = 0
+   /* var cor: String = ""
+    var vagasGaragem: Int
 
+    constructor(cor : String, vagasGaragem : Int){
+        this.cor = cor
+        this.vagasGaragem = vagasGaragem
+    }
+
+    init{
+        this.cor = cor
+        this.vagasGaragem = vagasGaragem
+
+    }
+    */
 
     //Metodos
     fun detalhesCasa() {

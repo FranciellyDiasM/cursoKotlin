@@ -3,9 +3,10 @@ package construtores
 
 fun main(args: Array<String>) {
 
-    val casa = Casa()
-    casa.cor = "Amarela"
-    casa.vagasGaragem = 2
+    val casa = Casa("Amarela", 2)
+
+   // casa.cor = "Amarela"
+   // casa.vagasGaragem = 2
     casa.abrirJanela(10)
 
     casa.detalhesCasa()
