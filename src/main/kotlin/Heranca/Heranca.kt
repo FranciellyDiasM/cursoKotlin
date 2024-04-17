@@ -14,8 +14,11 @@ package Heranca
 class Cao : Animal(){
     // override -> para sobreescrever um metodo / precisa por open no metodo para liberar para ser sobreescrito
     override fun dormir(){
-        println("Dormir como um cão.")
-
+        super.dormir()  /* chama a classe pai e incrementa o dormir  */
+        println(" como um cão.")
+    }
+    fun latir(){
+        println("Latir")
     }
 }
 
@@ -28,6 +31,7 @@ fun main (args: Array<String>){
     val cao = Cao()
     cao.dormir()
     cao.correr()
+    cao.latir()
 
     val passaro = Passaro()
     passaro.dormir()
