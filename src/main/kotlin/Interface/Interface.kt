@@ -38,6 +38,8 @@ fun main(args: Array<String>) {
     var jamilton = Jamilton()
     jamilton.direitosEdeveres()
 
+          println("------------")
+
     var obama = Obama()
     obama.direitosEdeveres()
     obama.ganharEleicao()
